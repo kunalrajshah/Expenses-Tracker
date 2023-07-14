@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins', sans-serif;
+  box-sizing: border-box;
+  background:linear-gradient(135deg, #cf9aff, #95c0ff);
+}
+.container{
+  width:50%;
+  min-height:55vh;
+  color: #fff;
+  padding-top: 2%;
+  padding-left: 3%;
+  border: 1px solid blueviolet;
+  border-radius: 10px;
+  margin-top:4%;
+}
+
+.heading h3{
+ color:aqua;
+ text-align: center;
+ border: 1px solid  #cf9aff;
+ margin-left:5%;
+ padding:2%;
+ width: 20%;
+}
+
+/* For Table */
+.output table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  border:1px solid blueviolet;
+  margin-top:4%;
+  user-select: none;
+}
+
+td, th {
+  border:1px solid blueviolet;
+  text-align: left;
+  padding: 8px;
+  user-select: none;
+}
+
+.output{
+  margin-left:25%;
+  width:83%;
+}
+
+/* Adding css on Delete and Edit button */
+.del_edit
+{
+  width:80%;
+  margin-top: 2%;
+  height:30px;
+  border-radius: 3px;
+  margin-left:6%;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* For Responsive */
+@media only screen and (min-width: 768px) {
+  /* Styles for tablets and larger screens */
+  .container {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  /* Styles for desktop screens */
+  .container {
+    width: 60%;
+  }
+}
